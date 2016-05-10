@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="13375313826" borderStyle="roundedRect" placeholder="用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V3Y-U0-I1w">
+                                <rect key="frame" x="200" y="20" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="gDV-Mo-WuA"/>
+                                    <constraint firstAttribute="width" constant="200" id="mWC-9n-W2t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UQL-9E-X06">
+                                <rect key="frame" x="200" y="58" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Klp-Zi-2LV"/>
+                                    <constraint firstAttribute="height" constant="30" id="s9S-CF-Lk7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOR-5d-bP9">
+                                <rect key="frame" x="245" y="96" width="110" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="7VW-ce-RZJ"/>
+                                    <constraint firstAttribute="height" constant="30" id="S8r-Jf-Xsg"/>
+                                </constraints>
+                                <state key="normal" title="登录"/>
+                                <connections>
+                                    <action selector="submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="682-ex-VxZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UQL-9E-X06" firstAttribute="top" secondItem="V3Y-U0-I1w" secondAttribute="bottom" constant="8" id="0ED-gj-iOG"/>
+                            <constraint firstItem="vOR-5d-bP9" firstAttribute="top" secondItem="UQL-9E-X06" secondAttribute="bottom" constant="8" id="PDl-XX-yKh"/>
+                            <constraint firstItem="V3Y-U0-I1w" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Tmt-d3-gdm"/>
+                            <constraint firstItem="vOR-5d-bP9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cpR-Nq-lLy"/>
+                            <constraint firstItem="V3Y-U0-I1w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="evh-OD-DOe"/>
+                            <constraint firstItem="UQL-9E-X06" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gEO-Gs-bDX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="password" destination="UQL-9E-X06" id="rw3-cy-hYh"/>
+                        <outlet property="username" destination="V3Y-U0-I1w" id="gAb-jt-dMv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="223" y="339"/>
+        </scene>
+    </scenes>
+</document>

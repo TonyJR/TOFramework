@@ -1,0 +1,39 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EF341BD5632F1B820FDD5A601E7990936D324FDA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "fc58265f-4466-5f45-8e76-3c0458791701++5493" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "fc58265f-4466-5f45-8e76-3c0458791701++5493" : 0,
+    "B151716A58F0AE2FFFC1217396C76603BB6935F8" : 0,
+    "EF341BD5632F1B820FDD5A601E7990936D324FDA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0B11A6E1-EC2E-4FE9-9FCC-19D858A3167B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "fc58265f-4466-5f45-8e76-3c0458791701++5493" : "TOFramework-source-code\/TOFramework\/source\/Reachability\/",
+    "B151716A58F0AE2FFFC1217396C76603BB6935F8" : "TOFramework-source-code\/",
+    "EF341BD5632F1B820FDD5A601E7990936D324FDA" : "TOFramework-demo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TOFramework_demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TOFramework_demo\/TOFramework_demo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/TonyJR\/TOFramework-source-code.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B151716A58F0AE2FFFC1217396C76603BB6935F8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/TonyJR\/TOFramework-demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF341BD5632F1B820FDD5A601E7990936D324FDA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/52.96.57.97:888\/svn\/EptSys",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "fc58265f-4466-5f45-8e76-3c0458791701++5493"
+    }
+  ]
+}
