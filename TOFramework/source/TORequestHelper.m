@@ -31,8 +31,7 @@
     for (NSString * key in keys) {
         NSObject * item = (NSObject *)(task.parames[key]);
         
-        if([item isKindOfClass:[NSString class]]){
-//            [dic setObject:item forKey:key];
+        if([item isKindOfClass:[NSString class]] || [item isKindOfClass:[NSNumber class]]){
             [dic setObject:item forKey:key];
         }
     }
